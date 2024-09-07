@@ -58,7 +58,3 @@ Contributions are welcome! If you have a new deep learning project or improvemen
 ## License
 
 This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
-
----
-
-This `README.md` provides a clear overview of your repository, guiding users on how to get started with the projects and encouraging contributions.
