@@ -19,7 +19,6 @@ This repository contains a deep learning project focused on classifying handwrit
 
 2. **Install Dependencies**:
    Ensure you have the required libraries installed.
-   ```
 
 ## Future Work
 
