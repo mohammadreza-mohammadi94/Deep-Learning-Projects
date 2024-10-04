@@ -18,23 +18,9 @@ This repository contains a deep learning project focused on classifying handwrit
    ```
 
 2. **Install Dependencies**:
-   Ensure you have the required libraries installed. You can use `requirements.txt` for the necessary packages.
-
-3. **Run the Project**:
-   Execute the main script to train the initial CNN model on the MNIST dataset:
-   ```bash
-   python main.py
+   Ensure you have the required libraries installed.
    ```
 
 ## Future Work
 
 This repository will be continuously updated with implementations of other CNN architectures to compare their performance on the MNIST dataset.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-- The MNIST dataset can be accessed from [Yann LeCun's website](http://yann.lecun.com/exdb/mnist/).
-- Special thanks to the contributors and communities that provide resources and support for deep learning projects.
