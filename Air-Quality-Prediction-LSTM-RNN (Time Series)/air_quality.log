@@ -1,0 +1,53 @@
+2025-04-22 16:46:39,131 : INFO : Histogram plot saved as 'distribution.png'
+2025-04-22 16:46:39,131 : INFO : Starting main execution
+2025-04-22 16:46:39,131 : DEBUG : Parameters: SEQ_LENGTH=48, N_EPOCHS=50, BATCH_SIZE=32
+2025-04-22 16:46:39,132 : INFO : Starting preprocessing for Delhi
+2025-04-22 16:46:39,161 : INFO : Filtered data for Delhi. Shape: (48192, 16)
+2025-04-22 16:46:39,374 : DEBUG : Converted datetime column to datetime format
+2025-04-22 16:46:39,374 : DEBUG : Features: ['PM2.5', 'PM10', 'NO', 'NO2', 'NOx', 'NH3', 'CO', 'SO2', 'O3', 'Benzene', 'Toluene', 'Xylene'], Target: AQI
+2025-04-22 16:46:39,375 : INFO : Applied log transformation to AQI
+2025-04-22 16:46:39,376 : INFO : Filling missing value: PM2.5 with mean: 117.66539619800488
+2025-04-22 16:46:39,377 : INFO : Filling missing value: PM10 with mean: 233.11466933210986
+2025-04-22 16:46:39,378 : INFO : Filling missing value: NO with mean: 39.00534993944962
+2025-04-22 16:46:39,379 : INFO : Filling missing value: NO2 with mean: 50.76370377334838
+2025-04-22 16:46:39,381 : INFO : Filling missing value: NOx with mean: 58.587961052172645
+2025-04-22 16:46:39,382 : INFO : Filling missing value: NH3 with mean: 42.1281398796916
+2025-04-22 16:46:39,383 : INFO : Filling missing value: CO with mean: 1.9790917454210921
+2025-04-22 16:46:39,385 : INFO : Filling missing value: SO2 with mean: 15.927299073665635
+2025-04-22 16:46:39,385 : INFO : Filling missing value: O3 with mean: 51.3123467634972
+2025-04-22 16:46:39,388 : INFO : Filling missing value: Benzene with mean: 3.5460308593263283
+2025-04-22 16:46:39,389 : INFO : Filling missing value: Toluene with mean: 17.187458995972264
+2025-04-22 16:46:39,390 : INFO : Filling missing value: Xylene with mean: 1.443236820540836
+2025-04-22 16:46:39,392 : INFO : Filling missing value: AQI with mean: 5.435167070916603
+2025-04-22 16:46:39,417 : INFO : Normalization done with RobustScaler.
+2025-04-22 16:46:39,439 : INFO : Scaled AQI range: min=-3.1177, max=1.4056
+2025-04-22 16:46:39,439 : INFO : Creating sequences with length: 48
+2025-04-22 16:46:39,570 : INFO : Sequence created. X Shape: (48144, 48, 12), y Shape: (48144,)
+2025-04-22 16:46:39,570 : INFO : Training size: 38515, Test size: 9629
+2025-04-22 16:46:39,570 : DEBUG : Train shapes: X=(38515, 48, 12), y=(38515,)
+2025-04-22 16:46:39,570 : DEBUG : Test shapes: X=(9629, 48, 12), y=(9629,)
+2025-04-22 16:46:39,571 : INFO : Training RNN model
+2025-04-22 16:46:39,571 : INFO : Buidling LSTM Model
+2025-04-22 16:46:39,656 : INFO : RNN model compiled successfully
+2025-04-22 16:46:39,665 : DEBUG : RNN model summary:
+None
+2025-04-22 16:57:25,533 : INFO : RNN model training completed
+2025-04-22 16:57:25,533 : INFO : Training LSTM model
+2025-04-22 16:57:25,533 : INFO : Buidling LSTM Model
+2025-04-22 16:57:25,580 : INFO : LSTM model compiled successfully
+2025-04-22 16:57:25,581 : DEBUG : LSTM model summary:
+None
+2025-04-22 17:24:49,159 : INFO : LSTM model training completed
+2025-04-22 17:24:49,159 : INFO : Generating Predictions
+2025-04-22 17:24:54,180 : DEBUG : Prediction shapes: RNN=(9629, 1), LSTM=(9629, 1)
+2025-04-22 17:24:54,180 : INFO : Evaluating models and generating plots
+2025-04-22 17:24:54,180 : DEBUG : Inverse normalization completed
+2025-04-22 17:24:54,180 : INFO : Applied inverse log transformation to predictions
+2025-04-22 17:24:54,180 : INFO : True AQI range after inverse transform: min=44.00, max=760.00
+2025-04-22 17:24:54,180 : INFO : RNN Predictions range: min=59.08, max=616.69
+2025-04-22 17:24:54,180 : INFO : LSTM Predictions range: min=58.90, max=588.75
+2025-04-22 17:24:54,180 : INFO : RNN Metrics: MSE=257.0640, MAE=11.3550, R²=0.9806
+2025-04-22 17:24:54,180 : INFO : LSTM Metrics: MSE=239.3246, MAE=10.5332, R²=0.9819
+2025-04-22 17:24:54,310 : INFO : Prediction plot saved as 'aqi_predictions.png'
+2025-04-22 17:24:54,404 : INFO : Loss history plot saved as 'aqi_loss_history.png'
+2025-04-22 17:24:54,404 : INFO : Main execution completed successfully
