@@ -161,18 +161,6 @@ Three models are implemented:
   - Ensure the dataset file (`household_power_consumption.txt`) is in the project directory.
 - **Memory Issues**:
   - The dataset is large (~2 million rows). If you encounter memory issues, consider reducing the dataset size (e.g., use data from a specific year) or running on a machine with more RAM.
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details (if applicable).
-
-## Contact
-
-For questions or suggestions, feel free to reach out:
-
-- Email: [your-email@example.com]
-- GitHub: [your-github-profile]
-
 ---
 
 *Last updated: April 23, 2025*
