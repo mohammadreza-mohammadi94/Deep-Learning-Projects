@@ -70,15 +70,6 @@ pickle
 
 ---
 
-## 📈 Results
-
-* **Test Accuracy**: \~XX% *(update based on your run)*
-* **AUC Score**: \~0.XX *(update based on your run)*
-
-Example confusion matrix and classification report are also generated and printed.
-
----
-
 ## 📦 Output
 
 * `best_model.h5.keras`: Saved best model checkpoint
