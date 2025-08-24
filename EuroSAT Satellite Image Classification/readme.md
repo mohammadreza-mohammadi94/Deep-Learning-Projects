@@ -61,6 +61,3 @@ python euro_sat_cnn.py
 * Python 3.8+
 * TensorFlow 2.x
 * NumPy, Matplotlib, Seaborn, scikit-learn
-
-If you want, I can also create a **super minimal 1-page version** suitable for GitHub repository landing page. Do you want me to do that?
-```
