@@ -1,4 +1,4 @@
-# Deep Learning Projects
+# Deep Learning Projects 🤖
 
 Welcome to the **Deep Learning Projects** repository! This repository contains a collection of projects that utilize various deep learning techniques and algorithms to solve diverse problems across different domains.
 
