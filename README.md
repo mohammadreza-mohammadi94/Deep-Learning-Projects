@@ -42,6 +42,7 @@ Welcome to the **Deep Learning Projects** repository! This repository contains a
 - [Tensorflow IMDB Dataset Sentiment Analysis - RNNs](Natural-Language-Processing/Tensorflow%20IMDB%20Dataset%20Sentiment%20Analysis%20-%20RNNs)
 - [Text Generation - Shakespear](Natural-Language-Processing/Text%20Generation%20-%20Shakespear)
 - [Text-Generation-Edgar-Allan-Poems](Natural-Language-Processing/Text-Generation-Edgar-Allan-Poems)
+- [Text-Generation-Mini-ChatBot](Natural-Language-Processing/Text-Generation-Mini-ChatBot)
 - [Toxic Comments Multilable Classification](Natural-Language-Processing/Toxic%20Comments%20Multilable%20Classification)
 - [Toxic-Comment-Classification](Natural-Language-Processing/Toxic-Comment-Classification)
 - [Vowel_Detection](Natural-Language-Processing/Vowel_Detection)
