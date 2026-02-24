@@ -25,6 +25,7 @@ Welcome to the **Deep Learning Projects** repository! This repository contains a
 - [Multilable Emotion Classification](Natural-Language-Processing/Multilable%20Emotion%20Classification)
 - [NER Identification - Annotated GMB Corpus](Natural-Language-Processing/NER%20Identification%20-%20Annotated%20GMB%20Corpus)
 - [NER-CoNLL-Dataset](Natural-Language-Processing/NER-CoNLL-Dataset)
+- [NER-MIT-Movie-Corpus](Natural-Language-Processing/NER-MIT-Movie-Corpus)
 - [NER-Medical-Texts](Natural-Language-Processing/NER-Medical-Texts)
 - [NER-WikiANN-Dataset](Natural-Language-Processing/NER-WikiANN-Dataset)
 - [NMT Machine Translation - Attention Mechanism](Natural-Language-Processing/NMT%20Machine%20Translation%20-%20Attention%20Mechanism)
