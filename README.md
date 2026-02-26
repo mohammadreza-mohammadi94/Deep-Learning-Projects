@@ -66,6 +66,7 @@ Welcome to the **Deep Learning Projects** repository! This repository contains a
 ### Audio Processing
 - [Melody-Sequence-Prediciton(Seq2Seq)](Audio-Processing/Melody-Sequence-Prediciton(Seq2Seq))
 - [Mini-Speech-Commands-Audio-Classification](Audio-Processing/Mini-Speech-Commands-Audio-Classification)
+- [Music-Generation-Classical-MIDI](Audio-Processing/Music-Generation-Classical-MIDI)
 - [Rythym_Detection_MIDI_LSTM](Audio-Processing/Rythym_Detection_MIDI_LSTM)
 - [UrbanSound8K-Audio-Classification-ConvNet](Audio-Processing/UrbanSound8K-Audio-Classification-ConvNet)
 
